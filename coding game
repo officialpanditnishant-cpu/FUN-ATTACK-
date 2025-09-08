@@ -1,0 +1,13 @@
+/ (root of repo)
+├─ index.html          ← main game hub (grid of game cards)
+├─ styles.css
+├─ app.js              ← loads games.json, lazy loads iframes
+├─ games.json          ← metadata for all 50 games
+├─ games/
+│   ├─ game-01/
+│   │   ├─ index.html
+│   │   └─ assets/...
+│   ├─ game-02/
+│   └─ ...
+├─ docs/                ← optional: if you use gh-pages from /docs
+└─ README.md
